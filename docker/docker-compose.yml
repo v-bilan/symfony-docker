@@ -7,8 +7,8 @@ services:
       args:
         - PUID=${PUID}
         - PGID=${PGID}
-    environment:
-      PHP_IDE_CONFIG: "serverName=Docker"
+#    environment:
+#      PHP_IDE_CONFIG: "serverName=Docker"
     volumes:
       - ./../:/var/www/
 
